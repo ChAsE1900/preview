@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<section class="sub-header">
+        <nav>
+            <a href="#"><img src="eduford_img/logo.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bx-x-circle' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact </a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showMenu()" ></i>
+        </nav>
+        <h1>Contact Us</h1>
+<section>
+
+
+<section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d493563.02175413625!2d-71.244224374972!3d42.082265444072405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e377427d7f0199%3A0x5937c65cee2427f0!2sHarvard%20University!5e0!3m2!1sde!2sde!4v1724766808332!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<section class="contact-us">
+
+    <div class="row">
+        <dv class="contact-col">
+            <div>
+                <i class='bx bx-home'></i>
+                <span>
+                    <h5 class="adress">XYZ Road, ABC Building</h5>
+                    <p>Boston, America</p>
+                </span>
+            </div>
+            <div>
+                <i class='bx bxs-phone' ></i>
+                <span>
+                    <h5 class="number">+1 012344543434</h5>
+                    <p>Monday to saturday, 10am to 6pm</p>
+                </span>
+            </div>
+            <div>
+                <i class='bx bxs-envelope' ></i>
+                <span>
+                    <h5>info@harvard.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>  
+        </dv>
+        <div class="contact-col">
+
+            <form action="">
+                <input type="text" placeholder="Enter your Name" required>
+                <input type="email" placeholder="Enter your Email adress" required>
+                <input type="text" placeholder="Enter your Subject" required> 
+                <textarea rows="8" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+
+
+
+        </div>
+    </div>
+
+</section>
+
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, deserunt consectetur! <br> Atque quasi earum, doloribus enim ullam porro iusto mollitia vitae necessitatibus assumenda officia.</p>
+    <div class="icons">
+        <i class='bx bxl-twitter' ></i>
+        <i class='bx bxl-facebook' ></i>
+        <i class='bx bxl-instagram' ></i>
+        <i class='bx bxl-linkedin' ></i>
+    </div>
+    <p>Made with <i class='bx bxs-heart'></i> by Mateusz </p>
+</section>
+
+<script>
+
+    var vavLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+    
+</body>
+</html>

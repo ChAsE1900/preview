@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<section class="sub-header">
+        <nav>
+            <a href="#"><img src="eduford_img/logo.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bx-x-circle' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact </a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showMenu()" ></i>
+        </nav>
+        <h1>About us</h1>
+<section>
+
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest University</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga nobis minus adipisci dicta sed explicabo doloremque vitae id sit, nemo quas doloribus? Quae iusto itaque veniam deleniti vero reprehenderit.</p>
+            <a href="" class="hero-btn red-btn">Explore Now</a>
+        </div>
+        <div class="about-col">
+            <img src="eduford_img/about.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, deserunt consectetur! <br> Atque quasi earum, doloribus enim ullam porro iusto mollitia vitae necessitatibus assumenda officia.</p>
+    <div class="icons">
+        <i class='bx bxl-twitter' ></i>
+        <i class='bx bxl-facebook' ></i>
+        <i class='bx bxl-instagram' ></i>
+        <i class='bx bxl-linkedin' ></i>
+    </div>
+    <p>Made with <i class='bx bxs-heart'></i> by Mateusz </p>
+</section>
+
+<script>
+
+    var vavLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+    
+</body>
+</html>
